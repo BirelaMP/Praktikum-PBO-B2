@@ -4,6 +4,7 @@
  * Tanggal    : Rabu, 4 Maret 2026
  */
 
+
 import java.util.ArrayList;
 public class Mahasiswa {
 
@@ -13,7 +14,7 @@ public class Mahasiswa {
     private String prodi;
     ArrayList<MataKuliah> listMatKul;
     private Dosen dosenWali;
-    private Kendaraan kendaraan;
+    private Kendaraan kendaraan; //komposisi
 
     /************** METHOD **************/
 
