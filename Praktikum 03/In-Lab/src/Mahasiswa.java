@@ -4,7 +4,6 @@
  * Tanggal    : Rabu, 4 Maret 2026
  */
 
-
 import java.util.ArrayList;
 public class Mahasiswa {
 
@@ -24,22 +23,23 @@ public class Mahasiswa {
     }
 
     // konstruktor dengan parameter
-    public Mahasiswa(String nim, String nama, String prodi) {
-        this.nim = nim;
-        this.nama = nama;
-        this.prodi = prodi;
-        this.listMatKul = new ArrayList<>();
-    }
+    public Mahasiswa(String nim, String nama, String prodi, String noPlat, String jenis) {
+    this.nim = nim;
+    this.nama = nama;
+    this.prodi = prodi;
+    this.listMatKul = new ArrayList<>();
+    this.kendaraan = new Kendaraan(noPlat, jenis); // komposisi
+}
 
     // setter dosen wali
     public void setDosenWali(Dosen dosenWali) {
         this.dosenWali = dosenWali;
     }
 
-    // setter kendaraan
-    public void setKendaraan(Kendaraan kendaraan) {
-        this.kendaraan = kendaraan;
-    }
+    // // setter kendaraan
+    // public void setKendaraan(Kendaraan kendaraan) {
+    //     this.kendaraan = kendaraan;
+    // }
 
     // tambah mata kuliah
     public void addMatKul(MataKuliah newMatKul) {
