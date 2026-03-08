@@ -36,11 +36,6 @@ public class Mahasiswa {
         this.dosenWali = dosenWali;
     }
 
-    // // setter kendaraan
-    // public void setKendaraan(Kendaraan kendaraan) {
-    //     this.kendaraan = kendaraan;
-    // }
-
     // tambah mata kuliah
     public void addMatKul(MataKuliah newMatKul) {
         listMatKul.add(newMatKul);
