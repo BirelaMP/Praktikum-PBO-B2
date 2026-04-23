@@ -32,3 +32,12 @@ public class MainAnabul {
         }
     }
 }
+
+/* Refleksi: Polimorfisme adalah konsep dalam pemrograman berorientasi objek 
+yang memungkinkan satu nama method digunakan oleh berbagai objek dengan perilaku yang berbeda.
+Pada program ini, polimorfisme terjadi ketika objek bertipe induk (Anabul) dapat mereferensikan 
+objek turunan seperti Kucing, Anjing, dan Burung. Meskipun method yang dipanggil sama (gerak dan bersuara),
+hasil yang ditampilkan berbeda sesuai dengan jenis objeknya.Hal ini menunjukkan bahwa Java menggunakan 
+dynamic binding (runtime polymorphism), di mana pemanggilan method ditentukan saat program dijalankan. 
+Dengan adanya polimorfisme, program menjadi lebih fleksibel, mudah dikembangkan, 
+dan mengurangi duplikasi kode. */

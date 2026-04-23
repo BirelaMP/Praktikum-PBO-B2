@@ -28,3 +28,9 @@ public class MahasiswaSeminar extends Civitasakademika {
         System.out.println(NIM + " | " + nama + " | Wali: " + dosenWali.nama);
     }
 }
+
+/* Refleksi: Polimorfisme memungkinkan satu tipe referensi digunakan untuk berbagai objek yang berbeda.
+Dalam kasus seminar, objek bertipe Civitasakademika dapat mereferensikan objek Dosen maupun Mahasiswa. 
+Method yang sama seperti getNomor() akan menghasilkan output berbeda tergantung jenis objeknya. 
+Dengan demikian, polimorfisme membuat program lebih fleksibel, efisien, dan mudah dikembangkan 
+karena tidak perlu membuat kode terpisah untuk setiap jenis objek.*/
