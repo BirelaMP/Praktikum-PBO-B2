@@ -14,7 +14,7 @@ public class MainSeminar {
         // e. 2 dosen dan 5 mahasiswa
         Dosen d1 = new Dosen("Pak Ayusta", "D001");
         Dosen d2 = new Dosen("Bu Diana", "D002");
-        
+
         MahasiswaSeminar m1 = new MahasiswaSeminar("Vio", "M001");
         MahasiswaSeminar m2 = new MahasiswaSeminar("Dinda", "M002");
         MahasiswaSeminar m3 = new MahasiswaSeminar("Najma", "M003");
@@ -55,3 +55,9 @@ public class MainSeminar {
         m5.tampilDataMahasiswa();
     }
 }
+
+/* Refleksi: Polimorfisme memungkinkan satu tipe referensi digunakan untuk berbagai objek yang berbeda.
+Dalam kasus seminar, objek bertipe Civitasakademika dapat mereferensikan objek Dosen maupun Mahasiswa. 
+Method yang sama seperti getNomor() akan menghasilkan output berbeda tergantung jenis objeknya. 
+Dengan demikian, polimorfisme membuat program lebih fleksibel, efisien, dan mudah dikembangkan 
+karena tidak perlu membuat kode terpisah untuk setiap jenis objek.*/
